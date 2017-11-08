@@ -1,4 +1,6 @@
-# Ng5
+# 手動載入 NgModule 範例
+
+展示 Angular 如何手動產生可延遲載入的 NgModule 並手動載入
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.0.
 
