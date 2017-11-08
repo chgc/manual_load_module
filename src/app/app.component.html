@@ -1,0 +1,5 @@
+<button (click)="go('lazy1')">GO TO Lazy1</button>
+<button (click)="go('lazy2')">GO TO Lazy2</button>
+<!-- <div #container></div> -->
+<ng-container *ngComponentOutlet="OtherModuleComponent;
+ngModuleFactory: myModule;"></ng-container>
