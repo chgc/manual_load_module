@@ -27,7 +27,8 @@ export class AppComponent {
   go(moduleName) {
     const path: string = modules[moduleName];
     this.moduleLoader.load(path).then((moduleFactory: NgModuleFactory<any>) => {
-      const entryComponent = (<any>moduleFactory.moduleType).entry;
+      const entryComponent = 
+        (<any>moduleFactory.moduleType).__annotations__[0].entryComponents[0];
       this.myModule = moduleFactory;
       this.OtherModuleComponent = entryComponent;
     });
