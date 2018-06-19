@@ -7,6 +7,4 @@ import { Lazy1Component } from './lazy1/lazy1.component';
   declarations: [Lazy1Component],
   entryComponents: [Lazy1Component]
 })
-export class Lazy1Module {
-  static entry = Lazy1Component;
-}
+export class Lazy1Module {}
